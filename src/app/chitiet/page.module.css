@@ -1,0 +1,79 @@
+.chitietsanpham {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+}
+
+.maincontent {
+  display: flex;
+  width: 1100px;
+  margin-bottom: 20px;
+}
+.hinhanh {
+  padding-top: 30px;
+  height: 400px; 
+  width: 70%; 
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.giatri {
+  font-size: 24px;
+  color: #7e0606;
+}
+
+.discount {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+
+.giacu {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 10px;
+}
+
+.trugia {
+  color: red;
+  font-weight: bold;
+}
+
+.mota {
+ 
+  width: 1100px;
+
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.buyButton {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.buyButton:hover {
+  background-color: #0056b3;
+}
+
+.gia {
+  height: 400px;
+  width: 30%; 
+ 
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

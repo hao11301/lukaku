@@ -1,0 +1,39 @@
+.footerItem {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .footerItem h5 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .footerItem p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .copyright {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .footer {
+    background-color: #0a0303;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-around;
+    width: 1100px; 
+    margin-bottom: 20px;
+    
+  }
